@@ -44,6 +44,6 @@ doesn't conflict with your test ```main``` function.
 test program name you selected in ```CMakeLists.txt``` (on line 5 in this case).
 
 # References
-https://github.com/google/googletest/tree/master/googletest#incorporating-into-an-existing-cmake-project
-https://github.com/bast/gtest-demo
-https://github.com/dmonopoly/gtest-cmake-example
+- https://github.com/google/googletest/tree/master/googletest#incorporating-into-an-existing-cmake-project
+- https://github.com/bast/gtest-demo
+- https://github.com/dmonopoly/gtest-cmake-example
