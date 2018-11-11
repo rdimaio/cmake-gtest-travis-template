@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/rdimaio/cmake-gtest-travis-template.svg?branch=master)](https://travis-ci.com/rdimaio/cmake-gtest-travis-template)
+
 # A template that uses CMake, Travis-CI and Google Test (without pre-installing Google Test)
 Using this template, Google Test is downloaded and unpacked at configure time.
 This means that you don't need to 'hardcode' the Google Test library in your
