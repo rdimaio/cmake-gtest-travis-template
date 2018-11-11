@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.com/rdimaio/cmake-gtest-travis-template.svg?branch=master)](https://travis-ci.com/rdimaio/cmake-gtest-travis-template)
 
-# A template that uses CMake, Travis-CI and Google Test (without pre-installing Google Test)
+# A template that uses CMake, Google Test and Travis CI (without pre-installing Google Test)
 Using this template, Google Test is downloaded and unpacked at configure time.
 This means that you don't need to 'hardcode' the Google Test library in your
 repository.
@@ -14,7 +14,7 @@ repository.
 ```
 
 ## Tests directory
-The tests directory can be organised in any way you prefer.
+The ```/tests``` directory can be organised in any way you prefer.
 The only important thing to remember is that there must be only one main
 function in the tests folder, which runs all tests (see [test_main.cpp](tests/test_main.cpp)).
 
@@ -47,3 +47,4 @@ test program name you selected in ```CMakeLists.txt``` (on line 5 in this case).
 - https://github.com/google/googletest/tree/master/googletest#incorporating-into-an-existing-cmake-project
 - https://github.com/bast/gtest-demo
 - https://github.com/dmonopoly/gtest-cmake-example
+- https://github.com/gujans/travis-gtest-cmake-example
